@@ -1,0 +1,46 @@
+.holder{
+    background: linear-gradient(#000000,#070011) ;
+    height: 100vh;
+}
+.navbar{
+    border: 1px solid rgb(57, 57, 57);
+    background-color: rgba(85, 85, 85, 0.187);
+    backdrop-filter: blur(15px);
+}
+.nav-ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 38px;
+    height: 25px;
+    padding:0px  11px 0px 21px;
+    margin: 0px;
+}
+.nav-li{
+    color:#bdbdbe;
+    font-weight: 500;
+    font-size: 14px;
+    transition: ease-in-out 0.2s;
+}
+.nav-li:hover{
+    color: #d6d6d8;
+    cursor: pointer;
+}
+.nav-li:active{
+    background-color: red;
+}
+.call-btn{
+    border: none;
+    width: 110px;
+    height: 30px;
+    background-color: #2e2e2e8f;
+    color: #bdbdbe;
+    backdrop-filter: blur(15px);
+}
+@media (max-width:570px){
+    .nav-ul{
+        display: none;
+    }
+   
+}

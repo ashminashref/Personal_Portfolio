@@ -1,0 +1,136 @@
+
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.094);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  scroll-behavior: smooth;
+}
+
+/* Target our specific modal dialog */
+.command-palette-modal .modal-dialog {
+  width: 90%;
+  max-width: 640px; 
+  margin-top: 10vh; 
+}
+
+/* This is the main styling for the modal window itself */
+.command-palette-modal .modal-content {
+  /* This creates the glass effect */
+  background: rgba(28, 28, 30, 0.75); /* Dark background with 75% opacity */
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border */
+  border-radius: 12px;
+  color: #f0f0f0; /* Light text color */
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); /* Drop shadow */
+}
+
+.command-palette-modal .modal-body {
+  padding: 12px; /* Reduced padding */
+  scrollbar-width: none;
+}
+
+/* --- Search Bar --- */
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.search-input {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 1.1rem;
+  width: 100%;
+  margin-left: 12px;
+  padding: 8px 0;
+}
+
+.search-input:focus {
+  outline: none; /* Remove default focus ring */
+}
+
+.search-input::placeholder {
+  color: #888;
+}
+
+.esc-hint {
+  font-size: 0.75rem;
+  color: #888;
+  border: 1px solid #555;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+/* --- Navigation List --- */
+.nav-list-container {
+  margin-top: 12px;
+  max-height: 400px; /* Set a max height */
+  overflow-y: auto; /* Add scroll if content overflows */
+}
+.nav-list-container::-webkit-scrollbar{
+    display: none;
+}
+.nav-list-title {
+  font-size: 0.8rem;
+  color: #999;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 0 8px 8px 8px;
+}
+
+.nav-list-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.1s ease-in-out;
+}
+
+.nav-list-item:hover,
+.nav-list-item.selected { /* You can add a 'selected' class via JS state */
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-list-item .MuiSvgIcon-root {
+  color: #aaa;
+  margin-right: 12px;
+}
+
+.nav-item-text span {
+  display: block;
+  font-size: 0.95rem;
+  color: #f0f0f0;
+  line-height: 1.2;
+}
+
+.nav-item-text small {
+  font-size: 0.8rem;
+  color: #888;
+  line-height: 1.2;
+}
+
+/* --- Bottom Hints --- */
+.modal-hints {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  margin-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.75rem;
+  color: #888;
+}
+
+.hint-key {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin: 0 2px;
+  font-size: 0.8rem;
+}
