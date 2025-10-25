@@ -1,16 +1,13 @@
-// Appbar.js (Corrected)
+
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import './Appbar.css'; // Make sure this file exists
+import './Appbar.css'; 
 import NavModal from './NavModal';
 
 function Appbar() {
   return (
-    // 1. Apply fixed-top to the *outer* full-width wrapper
     <div className='fixed-top appbar-wrapper'> 
-      {/* 2. Place the Container *inside* to align your content */}
       <Container className='text-white'>
-        {/* 3. Removed p-5, just using pt-4 for top padding */}
         <div className='d-flex align-items-center justify-content-between pt-4'>
           <div className="logo">
             <h4>ash.</h4>

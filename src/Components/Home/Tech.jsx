@@ -6,7 +6,7 @@ function Tech() {
     <div className='mt-5 pt-5'> 
     <Container className='text-lg-center mt-5 pt-5'>
 
-        <h1 className='tech-h1'>Passionate about cutting-edge technologies</h1>
+        <h1 className='gradient-txt'>Passionate about cutting-edge technologies</h1>
          <div class="container py-5" >
       <div class="position-relative overflow-hidden box-skill rounded-4 px-3 py-4 box-skill">
 

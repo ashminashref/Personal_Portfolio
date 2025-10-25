@@ -3,10 +3,10 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
 import { Link } from 'react-router-dom';
-// Import the new CSS file
+//  CSS file
 import './NavModal.css'; 
 
-// Import MUI Icons (add the ones you need)
+//  MUI Icons 
 import KeyboardCommandKeyOutlinedIcon from '@mui/icons-material/KeyboardCommandKeyOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';

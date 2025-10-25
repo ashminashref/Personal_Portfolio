@@ -1,3 +1,14 @@
+.gradient-txt{
+  background: linear-gradient(#ada0b5,#dd86de);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: 'Instrument Serif';
+}
+:root{
+  --primary-color:'#ffff';
+  --secondary-color:#999;
+  --border-color:rgb(31, 31, 31);
+}
 body{
   font-family: 'Manrope' !important;
   background-color: black !important;

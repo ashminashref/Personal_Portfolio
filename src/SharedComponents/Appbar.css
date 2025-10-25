@@ -1,6 +1,6 @@
 
 .navbar{
-    border: 1px solid rgb(57, 57, 57);
+    border: 1px solid var(--border-color);
     background-color: rgba(85, 85, 85, 0.187);
     backdrop-filter: blur(15px);
 }
@@ -15,7 +15,7 @@
     margin: 0px;
 }
 .nav-li{
-    color:#bdbdbe;
+    color:var(--secondary-color);
     font-weight: 500;
     font-size: 14px;
     transition: ease-in-out 0.2s;
@@ -32,7 +32,7 @@
     width: 110px;
     height: 30px;
     background-color: #2e2e2e8f;
-    color: #bdbdbe;
+    color: var(--primary-color);
     backdrop-filter: blur(15px);
 }
 @media (max-width:570px){
