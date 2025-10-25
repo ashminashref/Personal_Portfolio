@@ -1,38 +1,51 @@
 .image-container {
   position: relative;
-  background: linear-gradient(to bottom, #1e0e15, #581532);
+  background: linear-gradient(to bottom, rgb(0, 0, 0), #141112);
   display: flex;
   flex-direction: column; /* Your React component already has this */
   justify-content: space-between; /* Your React component already has this */
   overflow: hidden;
   border-radius: 12px;
-  box-shadow: 0px 8px 25px rgba(22, 18, 20, 0.6);
-
-  
+  box-shadow: 0px 8px 25px rgba(58, 51, 55, 0.509);
   border: 1px solid rgba(255, 255, 255, 0.2);
-
 }
 
+.arrow {
+  color: white;
+  cursor: pointer;
+  transition: ease-in-out 0.2s !important;
+}
+.arrow:hover {
+  color: grey;
+  transform: translateX(1.5px);
+}
 .image-container h3 {
   text-align: left;
   color: white;
-  margin-bottom: 1rem; 
+  margin-bottom: 1rem;
 }
 
 .image-container img {
-  
-  
   max-width: 100%;
-  width: 100%; 
+  width: 100%;
   height: auto;
-  object-fit: contain; 
-    border-radius: 13px; 
-    transition: ease-in-out 0.2s;
+  object-fit: contain;
+  border-radius: 13px;
+  transition: ease-in-out 0.2s;
 }
-.image-container:hover{
-    cursor: pointer;
-     img{
-        transform: scale(1.02);
-        rotate: -2deg;
-    }
+.image-container:hover {
+  cursor: pointer;
+  img {
+    transform: scale(1.02);
+    rotate: -2deg;
+  }
+}
+
+
+.desc{
+  font-size: 15px;
+}
+.project-li{
+  font-size: 14px;
+  color: grey;
 }
