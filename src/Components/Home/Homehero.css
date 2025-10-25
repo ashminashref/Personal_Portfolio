@@ -1,18 +1,23 @@
-.green-box{
-    border: 1px solid rgb(66, 66, 66);
-    background-color: #2f2f2f;
-    color: white;
-    width: 100px;
-    height: 30px;
-    gap: 15px;
-    font-size: 14px;
+.green-box {
+  border: 1px solid rgb(66, 66, 66);
+  background-color: #2f2f2f;
+  color: white;
+  
+  /* REMOVE fixed width and height */
+  /* width: 100px;  <-- DELETE */
+  /* height: 30px; <-- DELETE */
 
+  /* ADD padding instead */
+  padding: 6px 16px;
+  
+  font-size: 14px;
+  gap: 10px; /* Make sure this is here! */
 }
 .round-green{
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    position: relative;
+    position: relative ;
 }
 .round-green::before{
     content: '';
