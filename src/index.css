@@ -1,8 +1,6 @@
-:root{
-background-color: black !important;  
-}
 body{
   font-family: 'Manrope' !important;
+  background-color: black !important;
 }
 :root::-webkit-scrollbar{
   display: none;
