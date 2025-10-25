@@ -95,7 +95,9 @@
   color:var(--secondary-color);
   margin-right: 12px;
 }
-
+a{
+  color: var(--primary-color) !important;
+}
 .nav-item-text span {
   display: block;
   font-size: 0.95rem;

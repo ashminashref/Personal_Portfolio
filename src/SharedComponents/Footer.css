@@ -1,0 +1,35 @@
+.footer-h6, .footer-h5{
+    color: var(--secondary-color);
+}
+.footer-ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height:40px;
+}
+.footer-li, .footer-heading{
+color: white; 
+transition: ease-in-out 0.2s !important;
+
+cursor: pointer;
+}
+.footer-li :hover{
+    color: rgb(192, 192, 192) !important;
+}
+.footer-h3{
+    font-size: 23px;
+}
+.footer-p{
+    color: var(--secondary-color);
+    font-size: 15px;
+}
+.footer-copy{
+    color: var(--secondary-color);
+}
+.social-ico{
+    color: var(--secondary-color);
+    transition: ease-in-out 0.2s !important;
+}
+.social-ico:hover{
+    color: white;
+}

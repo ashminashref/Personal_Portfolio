@@ -33,11 +33,14 @@ function Homehero() {
   return (
     <div>
     
-      <Container className='text-lg-center mt-5 pt-5 d-flex flex-column justify-content-start align-items-center text-white'>
-        <button className='d-flex align-items-center justify-content-start justify-content-lg-center mt-5 green-box rounded-pill'>
+      <Container className='text-lg-center mt-5 pt-5 d-flex flex-column justify-content-start align-items-lg-center text-white'>
+        <div className='d-flex align-items-lg-center justify-content-lg-center'>
+           <button className='d-flex align-items-center mt-5 green-box rounded-pill'>
           <div className='round-green'></div>
           Active
         </button>
+        </div>
+       
         
         <h1 className='mt-5 hero-h1 mb-4'>
           Transforming Ideas into <br />

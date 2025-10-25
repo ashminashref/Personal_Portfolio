@@ -16,3 +16,6 @@ body{
 :root::-webkit-scrollbar{
   display: none;
 }
+body a{
+  text-decoration: none;
+}

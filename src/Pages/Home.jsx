@@ -5,6 +5,7 @@ import './Home.css'
 import Tech from '../Components/Home/Tech'
 import Projects from '../Components/Home/Projects'
 import Skills from '../Components/Home/Skills'
+import Footer from '../SharedComponents/Footer'
 function Home() {
   return (
     <div className='holder'>
@@ -13,6 +14,7 @@ function Home() {
          <Tech/>
          <Projects/>
          <Skills/>
+         <Footer/>
     </div>
   )
 }
