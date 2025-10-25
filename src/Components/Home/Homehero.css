@@ -76,7 +76,7 @@
     transition: ease-in-out 0.2s;
 }
 .round{
-    background-color: var(--primary-color);
+    background-color: white;
     border-radius: 50%;
     height: 35px;
     width: 35px;
@@ -84,10 +84,11 @@
 .arrow-icon{
     color: black;
     font-size: 19px !important ;
+    transition: ease-in-out 0.2s !important;
 
 }
 .connect-btn:hover{
-    background-color: #414141;
+    background-color: rgb(28, 28, 28);
     .arrow-icon{
         transform: translateX(3px);
         transition: ease-in-out 0.4s !important;

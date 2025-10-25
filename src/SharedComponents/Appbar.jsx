@@ -19,7 +19,10 @@ function Appbar() {
               <li className='nav-li'>Work</li>
               <li className='nav-li'>More</li>
               <li className='nav-li'>
+                <a href="https://cal.com/ashmin-ashraf">
                 <button className='call-btn rounded-pill'>Book a call</button>
+
+                </a>
               </li>
             </ul>
           </div>

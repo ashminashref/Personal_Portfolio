@@ -48,4 +48,6 @@
 .project-li{
   font-size: 14px;
   color: grey;
+  list-style: none;
+  line-height: 40px;
 }

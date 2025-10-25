@@ -1,0 +1,9 @@
+.skills-h6-1{
+    color: var(--secondary-color);
+}
+.skill-ul{
+    display: flex;
+    list-style: none;
+    gap: 8px;
+    
+}

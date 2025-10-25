@@ -92,11 +92,14 @@ function MyVerticallyCenteredModal(props) {
             title="Bucket List" 
             subtitle="Things to do at least once in my life"
           />
-           <NavItem 
+          <a href="https://cal.com/ashmin-ashraf">
+ <NavItem 
             icon={<CallOutlinedIcon />} 
             title="Book a Call" 
             subtitle="Let's chat!"
           />
+          </a>
+          
         </div>
 
         {/* Bottom Hints */}
