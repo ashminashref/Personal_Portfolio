@@ -42,11 +42,13 @@ function Homehero() {
     }
   return (
     <div>
-        <Container className='text-lg-center mt-5 pt-5 text-white'> 
-          
+        <Container className='text-lg-center mt-5 pt-5 d-flex flex-column align-items-lg-center text-white'> 
+          <button className='d-flex align-items-lg-center justify-content-center mt-5 green-box rounded-pill'>
+            <span className='round-green'></span>
+            Active
+          </button>
 <h1 className='mt-5 hero-h1 mb-4'>Transforming Ideas into   <br />Interactive <span className='word-span'><i> Web Experiences</i></span></h1>
 
-{/* <div className="d-lg-flex justify-content-lg-center   gap-4"> */}
 <Row className='align-items-center justify-content-lg-center gy-3'>
   <Col xs= 'auto'>
   <button className='connect-btn rounded-pill'>
@@ -60,8 +62,8 @@ function Homehero() {
 </Col>
 <Col xs = 'auto'>
       <button 
-            variant="outline-light" // A simple bootstrap button
-            onClick={handleCopy}   // Triggers the copy function
+            variant="outline-light" 
+            onClick={handleCopy}   
             className="rounded-pill copy"
           >
             

@@ -4,3 +4,36 @@
     color: transparent;
     font-family: 'Instrument Serif';
 }
+
+marquee {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+.marquee-track {
+  display: flex;
+  width: fit-content;
+  animation: scroll-left 25s linear infinite;
+}
+
+.box-skill {
+  background-color: rgba(48, 48, 48, 0.126);
+  margin-bottom: 100px;
+  border: 1px solid rgba(48, 48, 48, 0.466);
+}
+.blur-1{
+    width: 60px; background: linear-gradient(to right, #000, transparent); z-index: 1;
+}
+.blur-2{
+    width: 60px; background: linear-gradient(to left, #000, transparent); z-index: 1;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
