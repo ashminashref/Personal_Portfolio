@@ -56,12 +56,16 @@ function MyVerticallyCenteredModal(props) {
         {/* Navigation List */}
         <div className="nav-list-container">
           <p className="nav-list-title">Navigation</p>
-          <NavItem 
+
+          <Link to = '/'>
+            <NavItem 
             icon={<HomeOutlinedIcon />} 
             title="Home" 
             as = '/Home'
             subtitle="Welcome to my forever work-in-progress!"
           />
+          </Link>
+        
           <NavItem 
             icon={<AccountTreeOutlinedIcon />} 
             title="Projects" 
@@ -82,17 +86,21 @@ function MyVerticallyCenteredModal(props) {
             title="Links" 
             subtitle="All my links are here"
           />
-          <NavItem 
+
+          <Link to  = '/about'>
+           <NavItem 
             icon={<InfoOutlinedIcon />} 
             title="About" 
             subtitle="Learn more about me"
           />
+          </Link>
+         
           <NavItem 
             icon={<FormatListBulletedOutlinedIcon />} 
             title="Bucket List" 
             subtitle="Things to do at least once in my life"
           />
-          <a href="https://cal.com/ashmin-ashraf">
+          <a href="https://cal.com/ashmin-ashraf/schedule-meeting">
  <NavItem 
             icon={<CallOutlinedIcon />} 
             title="Book a Call" 

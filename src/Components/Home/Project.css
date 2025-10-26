@@ -45,9 +45,23 @@
 .desc{
   font-size: 15px;
 }
+.project-ul{
+  padding: 0;
+}
 .project-li{
-  font-size: 14px;
-  color: grey;
+  font-size: 13px;
+  color: grey !important;
   list-style: none;
-  line-height: 40px;
+  margin-bottom: 20px;
+}
+.project-h4{
+  background: linear-gradient(rgb(255, 255, 255),rgb(122, 121, 121));
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 40px rgb(117, 117, 117);
+}
+.project-h6{
+  color: var(--secondary-color);
 }

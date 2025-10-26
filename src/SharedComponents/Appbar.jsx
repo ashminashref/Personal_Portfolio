@@ -3,6 +3,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import './Appbar.css'; 
 import NavModal from './NavModal';
+import { Link } from 'react-router-dom';
 
 function Appbar() {
   return (
@@ -14,12 +15,12 @@ function Appbar() {
           </div>
           <div className="navbar rounded-pill">
             <ul className='nav-ul'>
-              <li className='nav-li'>Home</li>
-              <li className='nav-li'>About</li>
+              <li className='nav-li'><Link to = '/'>Home</Link></li>
+              <li className='nav-li'><Link to = '/about'>About</Link></li>
               <li className='nav-li'>Work</li>
               <li className='nav-li'>More</li>
               <li className='nav-li'>
-                <a href="https://cal.com/ashmin-ashraf">
+                <a href="https://cal.com/ashmin-ashraf/schedule-meeting">
                 <button className='call-btn rounded-pill'>Book a call</button>
 
                 </a>

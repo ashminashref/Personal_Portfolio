@@ -49,12 +49,15 @@ function Homehero() {
 
         <Row className='align-items-center justify-content-lg-center gy-3'>
           <Col xs='auto'>
-            <button className='connect-btn rounded-pill'>
+          <a href="https://cal.com/ashmin-ashraf/schedule-meeting">
+ <button className='connect-btn rounded-pill'>
               Let's Connect
               <div className='round d-flex align-items-center justify-content-center'>
                 <ArrowForwardOutlinedIcon className='arrow-icon' />
               </div>
             </button>
+          </a>
+           
           </Col>
           <Col xs='auto'>
             <button

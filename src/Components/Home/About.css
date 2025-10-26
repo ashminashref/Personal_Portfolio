@@ -1,0 +1,12 @@
+.about-h6{
+    color: var(--secondary-color);
+    text-transform: uppercase;
+}
+.about-p{
+    color: var(--secondary-color);
+}
+@media(max-width:550px){
+    .about-h1{
+        font-size: 40px !important;
+    }
+}

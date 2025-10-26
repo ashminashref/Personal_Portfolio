@@ -6,6 +6,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import XIcon from '@mui/icons-material/X';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import { Link } from 'react-router-dom';
 
 
 function Footer() {
@@ -15,12 +16,16 @@ function Footer() {
             
             <h1 className='text-lg-center text-white text-uppercase mb-4 mt-5 pt-5'>from concept to <span className='gradient-txt'>craetion</span><br />let's make it <span className='gradient-txt'>happen!</span></h1>
             <div className='d-flex justify-content-lg-center mb-5 mt-5'>
-  <button className='connect-btn rounded-pill text-white'>
+
+              <a href="https://cal.com/ashmin-ashraf/schedule-meeting">
+                <button className='connect-btn rounded-pill text-white'>
               Let's Connect
               <div className='round d-flex align-items-center justify-content-center'>
                 <ArrowForwardOutlinedIcon className='arrow-icon' />
               </div>
             </button>
+              </a>
+  
             </div>
             <h3 className='text-lg-center text-white footer-h3'>I'm available for full-time roles & freelance projects.
 
@@ -39,8 +44,8 @@ delivering seamless user experiences.</p>
         <Col lg = {2} >
         <ul className='footer-ul'>
             <h6 className='footer-heading'>Genral</h6>
-            <li className='footer-li'><a href="">Home</a></li>
-            <li className='footer-li'><a href="">About</a></li>
+            <li className='footer-li'><a href=""><Link to = '/'>Home</Link></a></li>
+            <li className='footer-li'><a href=""><Link to = 'about'>About</Link> </a></li>
             <li className='footer-li'><a href="">Projects</a></li>
             <li className='footer-li'><a href="">Blog</a></li>
         </ul>
@@ -57,7 +62,7 @@ delivering seamless user experiences.</p>
         <Col lg = {2} className=' align-items-end d-flex'>
         <ul className='footer-ul'>
             <h6 className='footer-heading'>More</h6>
-            <li className='footer-li'><a href="">Book a call</a></li>
+            <li className='footer-li'><a href="https://cal.com/ashmin-ashraf/schedule-meeting">Book a call</a></li>
             <li className='footer-li'><a href="">Links</a></li>
         </ul>
         </Col>

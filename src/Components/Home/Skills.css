@@ -1,5 +1,5 @@
-.skills-h6-1{
-    color: var(--secondary-color);
+.skill-h6-1{
+    color: var(--secondary-color) ;
 }
 .skill-ul{
     display: flex;
