@@ -1,0 +1,19 @@
+.exp-h6-1{
+    color: var(--secondary-color);
+}
+.exp-h1-1{
+    font-size: 60px;
+}
+.exp-h4, .exp-h5{
+    font-family: 'Instrument Serif';
+}
+.exp-h6{
+    color: var(--secondary-color);
+}
+.exp-ul{
+    list-style: none;
+}
+.exp-li{
+margin-bottom: 20px;
+color: var(--secondary-color);
+}
