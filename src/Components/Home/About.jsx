@@ -35,7 +35,7 @@ function About() {
             </p>
           </Col>
           <Col lg = {6}>
-          <img src="/Img/character.png" alt="man smiling" />
+          {/* <img src="/Img/character.png" alt="man smiling" /> */}
           </Col>
         </Row>
       </Container>
