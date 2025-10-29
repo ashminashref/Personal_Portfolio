@@ -13,7 +13,8 @@ import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import AccountTreeOutlinedIcon from '@mui/icons-material/AccountTreeOutlined';
 import ArticleOutlinedIcon from '@mui/icons-material/ArticleOutlined';
 import MarkAsUnreadOutlinedIcon from '@mui/icons-material/MarkAsUnreadOutlined';
-import LinkOutlinedIcon from '@mui/icons-material/LinkOutlined';
+import DescriptionIcon from '@mui/icons-material/Description';
+
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import FormatListBulletedOutlinedIcon from '@mui/icons-material/FormatListBulletedOutlined';
 import CallOutlinedIcon from '@mui/icons-material/CallOutlined';
@@ -65,12 +66,14 @@ function MyVerticallyCenteredModal(props) {
             subtitle="Welcome to my forever work-in-progress!"
           />
           </Link>
-        
-          <NavItem 
+        <Link to = '/project'>
+         <NavItem 
             icon={<AccountTreeOutlinedIcon />} 
             title="Projects" 
             subtitle="Showcase of my projects"
           />
+        </Link>
+         
           <NavItem 
             icon={<ArticleOutlinedIcon />} 
             title="Blog" 
@@ -81,11 +84,18 @@ function MyVerticallyCenteredModal(props) {
             title="Guestbook" 
             subtitle="Leave a message for me"
           />
-          <NavItem 
-            icon={<LinkOutlinedIcon />} 
-            title="Links" 
-            subtitle="All my links are here"
-          />
+         <a 
+  href="/Resume/ASHMINASHRAF.pdf" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <NavItem 
+    icon={<DescriptionIcon />} 
+    title="Resume" 
+    subtitle="View my resume" 
+  />
+</a>
+
 
           <Link to  = '/about'>
            <NavItem 
@@ -95,11 +105,7 @@ function MyVerticallyCenteredModal(props) {
           />
           </Link>
          
-          <NavItem 
-            icon={<FormatListBulletedOutlinedIcon />} 
-            title="Bucket List" 
-            subtitle="Things to do at least once in my life"
-          />
+         
           <a href="https://cal.com/ashmin-ashraf/schedule-meeting">
  <NavItem 
             icon={<CallOutlinedIcon />} 

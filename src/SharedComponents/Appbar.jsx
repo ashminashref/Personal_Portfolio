@@ -17,8 +17,15 @@ function Appbar() {
             <ul className='nav-ul'>
               <li className='nav-li'><Link to = '/'>Home</Link></li>
               <li className='nav-li'><Link to = '/about'>About</Link></li>
-              <li className='nav-li'>Work</li>
-              <li className='nav-li'>More</li>
+              <li className='nav-li'><Link to = '/project'>Work</Link></li>
+
+              <a href="/Resume/ASHMINASHRAF.pdf"
+              target='_blank'
+              rel='noopener noreferrer'
+              >
+                            <li className='nav-li'>Resume</li>
+
+              </a>
               <li className='nav-li'>
                 <a href="https://cal.com/ashmin-ashraf/schedule-meeting">
                 <button className='call-btn rounded-pill'>Book a call</button>
