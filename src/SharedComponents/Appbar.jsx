@@ -11,11 +11,11 @@ function Appbar() {
       <Container className='text-white'>
         <div className='d-flex align-items-center justify-content-between pt-4'>
           <div className="logo">
-            <h4>ash.</h4>
+            <h4><Link to = '/'>ash.</Link></h4>
           </div>
           <div className="navbar rounded-pill">
             <ul className='nav-ul'>
-              <li className='nav-li'><Link to = '/'>Home</Link></li>
+               <li className='nav-li'><Link to = '/'>Home</Link></li>
               <li className='nav-li'><Link to = '/about'>About</Link></li>
               <li className='nav-li'><Link to = '/project'>Work</Link></li>
 

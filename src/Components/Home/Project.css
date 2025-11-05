@@ -65,3 +65,9 @@
 .project-h6{
   color: var(--secondary-color);
 }
+
+@media (max-width:768px){
+  .project-h4{
+    font-size: 15px;
+  }
+}
