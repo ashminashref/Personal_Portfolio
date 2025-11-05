@@ -94,7 +94,7 @@ function Footer() {
         <Row className="gy-4">
           <Col lg={6}>
             <p className="footer-copy m-0 p-0">
-              2025 - 26 Ashmin Ashraf. All rights reserved
+              Build by Ashmin Ashraf 2025 - 26
             </p>
           </Col>
           <Col

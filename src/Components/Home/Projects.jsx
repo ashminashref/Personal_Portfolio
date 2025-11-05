@@ -5,7 +5,8 @@ import { Container, Row, Col } from 'react-bootstrap'
 import './Project.css'
 
 // MUI
-import AutoAwesomeOutlinedIcon from '@mui/icons-material/AutoAwesomeOutlined';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+
 
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 // import project data
@@ -39,7 +40,7 @@ function Projects() {
                             {data.features?.map((item,index)=> (
                                 
 
-                                <li className='project-li ' key={index}><AutoAwesomeOutlinedIcon  sx={{marginRight:'5px',color:'white'}}/> {item}</li>
+                                <li className='project-li ' key={index}><KeyboardArrowRightIcon  sx={{marginRight:'5px',color:'white'}}/> {item}</li>
 
                             
                             ))}
