@@ -74,16 +74,16 @@ function MyVerticallyCenteredModal(props) {
           />
         </Link>
          
-          <NavItem 
+          {/* <NavItem 
             icon={<ArticleOutlinedIcon />} 
             title="Blog" 
             subtitle="Thoughts, mental models, and tutorials"
-          />
-          <NavItem 
+          /> */}
+          {/* <NavItem 
             icon={<MarkAsUnreadOutlinedIcon />} 
             title="Guestbook" 
             subtitle="Leave a message for me"
-          />
+          /> */}
          <a 
   href="/Resume/ASHMINASHRAF.pdf" 
   target="_blank" 

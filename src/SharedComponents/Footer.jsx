@@ -66,9 +66,7 @@ function Footer() {
                   <Link to="/project">Projects</Link>
                 </a>
               </li>
-              <li className="footer-li">
-                <a href="">Blog</a>
-              </li>
+            
             </ul>
           </Col>
 
