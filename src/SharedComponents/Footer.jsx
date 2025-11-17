@@ -52,21 +52,14 @@ function Footer() {
             <ul className="footer-ul">
               <h6 className="footer-heading">Genral</h6>
               <li className="footer-li">
-                <a href="">
-                  <Link to="/">Home</Link>
-                </a>
+                <Link to="/">Home</Link>
               </li>
               <li className="footer-li">
-                <a href="">
-                  <Link to="about">About</Link>{" "}
-                </a>
+                <Link to="about">About</Link>
               </li>
               <li className="footer-li">
-                <a href="">
-                  <Link to="/project">Projects</Link>
-                </a>
+                <Link to="/project">Projects</Link>
               </li>
-            
             </ul>
           </Col>
 

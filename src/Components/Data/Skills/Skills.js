@@ -20,4 +20,8 @@ export const toolBox = [{
 {
     url:'/Img/github.svg'
 },
+{
+    url:'/Img/python.svg'
+},
+
 ]
